@@ -26,6 +26,11 @@ const designs = [
     label: "案5",
     description: "おもちゃ箱・リソグラフテイスト",
   },
+  {
+    href: "/top6",
+    label: "案6",
+    description: "案3ベース・季節軸なし＋口コミ＋代表紹介",
+  },
 ];
 
 export default function GalleryPage() {

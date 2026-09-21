@@ -1,10 +1,11 @@
 # 造園サイト デザインサンプル
-友人の造園会社のトップページ案を5パターン作り、比較してもらうためのサンプルプロジェクト。
+友人の造園会社のトップページ案を6パターン作り、比較してもらうためのサンプルプロジェクト。
 
 ## 構成
-- app/page.tsx … 5案の一覧（ギャラリー）
-- app/top1, top2, top3, top4, top5/page.tsx … 各デザイン案
-- components/top1, top2, top3, top4, top5/ … 案ごとにコンポーネントを分離（共有しない）
+- app/page.tsx … 6案の一覧（ギャラリー）
+- app/top1, top2, top3, top4, top5, top6/page.tsx … 各デザイン案
+- components/top1, top2, top3, top4, top5, top6/ … 案ごとにコンポーネントを分離（共有しない）
+- top6 は top3 ベース。季節セクション削除・サービス一覧・口コミ・代表紹介を追加
 
 ## ルール
 - Next.js 15 (App Router) / TypeScript / Tailwind CSS のみ。CMSはまだ入れない
