@@ -1,4 +1,4 @@
-import { Reggae_One, Zen_Maru_Gothic, Kiwi_Maru } from "next/font/google";
+import { Reggae_One, Zen_Kaku_Gothic_New, Kiwi_Maru } from "next/font/google";
 import Header from "@/components/top5/Header";
 import Hero from "@/components/top5/Hero";
 import Services from "@/components/top5/Services";
@@ -18,7 +18,7 @@ const reggaeOne = Reggae_One({
   variable: "--top5-reggae",
 });
 
-const zenMaru = Zen_Maru_Gothic({
+const zenMaru = Zen_Kaku_Gothic_New({
   weight: ["400", "500", "700"],
   subsets: ["latin"],
   display: "swap",

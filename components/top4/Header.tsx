@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const navLinks = [
   { label: "施工事例", href: "#works" },
@@ -30,12 +31,12 @@ export default function Header() {
           borderBottom: scrolled ? "1px solid rgba(28,36,16,0.1)" : "none",
         }}
       >
-        <a
+        <Link
           href="/"
           style={{ fontFamily: "var(--t4-head)", fontSize: 18, fontWeight: 800, color: fg }}
         >
           榊Garden
-        </a>
+        </Link>
 
         {/* デスクトップナビ */}
         <nav className="hidden sm:flex items-center gap-8">

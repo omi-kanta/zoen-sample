@@ -1,4 +1,4 @@
-import { Klee_One, Zen_Maru_Gothic, Yomogi } from "next/font/google";
+import { Klee_One, Zen_Kaku_Gothic_New, Yomogi } from "next/font/google";
 import Header from "@/components/top3/Header";
 import Hero from "@/components/top3/Hero";
 import About from "@/components/top3/About";
@@ -18,7 +18,7 @@ const kleeOne = Klee_One({
   variable: "--top3-klee",
 });
 
-const zenMaru = Zen_Maru_Gothic({
+const zenMaru = Zen_Kaku_Gothic_New({
   weight: ["400", "500", "700"],
   subsets: ["latin"],
   display: "swap",

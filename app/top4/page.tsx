@@ -1,4 +1,4 @@
-import { Shippori_Mincho, Zen_Kaku_Gothic_New, DM_Mono } from "next/font/google";
+import { Noto_Serif_JP, Zen_Kaku_Gothic_New, DM_Mono } from "next/font/google";
 import Header from "@/components/top4/Header";
 import Hero from "@/components/top4/Hero";
 import BeforeAfter from "@/components/top4/BeforeAfter";
@@ -9,8 +9,8 @@ import Corporate from "@/components/top4/Corporate";
 import Profile from "@/components/top4/Profile";
 import Contact from "@/components/top4/Contact";
 
-const shipporiB1 = Shippori_Mincho({
-  weight: ["400", "700", "800"],
+const shipporiB1 = Noto_Serif_JP({
+  weight: ["400", "700", "900"],
   subsets: ["latin"],
   display: "swap",
   preload: false,

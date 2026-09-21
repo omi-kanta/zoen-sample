@@ -55,7 +55,7 @@ export default function Testimonials() {
                 style={{ fontFamily: "var(--top2-sans)" }}
                 aria-hidden
               >
-                "
+                &ldquo;
               </div>
               <p
                 className="text-base leading-loose text-gray-700 mb-10"
